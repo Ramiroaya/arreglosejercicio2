@@ -6,6 +6,8 @@ btnEnviar1.addEventListener("click", () => {
 
   for (indice = 0; indice < arreglo.length; indice++) {
     arreglo[indice] = Number(prompt("Ingrese el valor del indice" + indice));
+  }
+  for (indice = 0; indice < arreglo.length; indice++){
     console.log(
       "El numero en el indice " + indice + "  es:  " + arreglo[indice]
     );
